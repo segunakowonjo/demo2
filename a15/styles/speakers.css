@@ -1,0 +1,421 @@
+/* the styles for the elements */
+
+/*
+Enhance the rule set for the body, by setting the width to 600 pixels, setting the 
+top and bottom margins to 0 and the right and left margins to auto, and adding a 
+3-pixel, solid border with #931420 as its color. Then, test this change in Chrome. 
+If the page isn’t centered with a border, make the required corrections.
+
+Add one more rule to the body that sets the background color to #fffded. 
+Then, test this change, and note that the entire window is set to the background color, 
+not just the body.
+
+In the CSS file, enhance the rule set for the body so the width is 800 pixels.
+*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    	font-size: 100%;
+    	width: 800px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	border: solid 3px #931420;
+    	background-color: #fffded;
+    }
+
+
+/*
+To fix this, code a rule set for the html element that sets the background color to white. 
+Then, test to make sure that worked.
+ */
+html
+	{
+	background-color: white;	
+	height: 1000px;
+	}
+    
+
+
+
+
+/*Next, set the width of the section to 525 pixels and float it to the right, and set
+the width of the aside to 215 pixels and float it to the right. 
+*/
+section
+	{
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	}
+
+aside
+	{
+	width: 215px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	}
+
+
+
+/*
+Add a bottom border to the header that’s the same as the border around the body.
+
+For the header, add 1.5 ems of padding at the top and 2 ems of padding at the bottom. 
+*/
+header
+	{
+	border-bottom: solid 3px #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	}
+
+   
+body header
+	{
+	background: linear-gradient(30deg, #f6bb73 0%,  #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);	
+	background: -moz-linear-gradient(30deg, #f6bb73 0%,  #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background: -webkit-linear-gradient(30deg, #f6bb73 0%,  #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);	
+	background: -o-linear-gradient(30deg, #f6bb73 0%,  #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	}  
+   
+   
+   
+    
+/*
+ Add two rule sets for the header to the style sheet. The first one should be
+for the h2 element, and it should set the font size to 170%, set the color to
+#800000, and indent the heading 30 pixels. The second one should be for the
+h3 element, and it should set the font size to 130%, set the font style to italic,
+and indent the heading 30 pixels.
+
+Delete the text-indent rules for the h2 and h3 elements in the header
+*/
+body header h2
+	{
+	font-size: 170%;	
+	color: #800000;
+	}
+
+body header h3
+	{
+	font-size: 130%;	
+	font-style: italic;
+	}
+
+
+/* the styles for the header 
+Test the HTML page in Chrome to make sure that the style sheets have been
+linked properly, the image has been floated, and the headings have been
+formatted correctly. If necessary, make corrections and test again.
+
+Add 30 pixels of padding to the right and left of the image in the header. When you test these 
+changes, you’ll see that the heading looks much better.
+*/
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 1em;
+}
+
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+
+/*
+Add a rule set for the h1 elements within the main element that sets the font
+size to 150%.
+
+Add top and bottom borders to the h1 heading in the main element. Both 
+borders should be the same as the borders for the header and footer.
+
+For the main element, add 30 pixels of padding to the right and left.
+
+Last, delete the rule set for the h1 heading. Now, test this. The columns should be starting 
+to take shape.
+*/
+/*
+div h1
+	{
+	font-size: 150%;	
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: solid 3px #931420;
+	border-top: solid 3px #931420;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: .3em;
+	padding-bottom: .3em;	
+	box-shadow: 10px 10px 10px #800000;
+	background-color: white;	
+	text-align: center;
+	}
+*/
+
+/*
+Add a rule set for the h2 elements within the main element that sets the font
+size to 130% and the color to #800000.
+
+For the main element, add 30 pixels of padding to the right and left.
+*/
+h2
+	{
+	font-size: 150%;
+	color	: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	}
+	
+
+
+/*
+Add a rule set for the h3 elements within the main element that sets the font
+size to 105%.
+
+For the main element, add 30 pixels of padding to the right and left.
+*/
+h3
+	{
+	font-size: 105%;	
+	padding-bottom: .25em;
+	}
+
+
+/*
+Add a rule set that italicizes any link that has the focus or has the mouse
+hovering over it.
+*/
+a:focus, a:hover
+	{
+	font-style: italic;	
+	}
+
+
+/*
+Add a text shadow to the 75th in the second heading in the header. To do that,
+enclose the 75th in the HTML in an em or span element and give that element
+a class attribute with a value of “shadow”. Then, create a rule set that uses a
+class selector (.shadow) for that class, and code a rule that adds a shadow to
+the text with #800000 as the color of the shadow.
+*/
+header h3
+	{
+	text-shadow: 10px 10px 10px #800000;	
+	}
+
+
+/*
+For the main element, add 30 pixels of padding to the right and left.
+*/
+body p
+	{
+	padding-bottom: .5em;
+	}
+
+body blockquote
+	{
+	font-style: italic;
+	}
+
+
+/*
+For the main element, add 30 pixels of padding to the right and left.
+*/
+body ul
+	{
+	padding-bottom: .25em;
+	margin-left: 20px;
+	}
+	
+body ul li
+	{
+	padding-bottom: .35em;
+	}
+
+
+#speaker
+	{
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	}
+
+
+article
+	{
+	padding-bottom: .5em;
+	padding-top: .5em;
+	border-bottom: 2px;
+	}
+
+article img
+	{
+	float: right;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	border: solid 1px black;
+	}
+	
+	
+#fossil
+	{
+	padding-top: 0;	
+	}
+	
+	
+#dateName
+	{
+	font-size: 105%;
+	padding-bottom: .25em;	
+	}
+
+
+section h1
+	{
+	color	: #800000;	
+	font-size: 150%;
+	padding-top: .5em;
+	}
+
+
+section h2
+	{
+	color: black;	
+	}
+
+
+
+#nav_menu
+	{
+	margin: 0;
+	padding: 0;
+	font-style: normal;	
+	}
+
+#nav_menu li
+	{
+	margin: 0;
+	padding: 10px, 0px;
+	list-style-type: none;	
+	float: left;
+	position: relative;
+	width: 20%;
+	text-align: center;
+	text-decoration: none;
+	background-color:#800000;
+	color: white;
+	display: block;
+	font-style: normal;	
+	}
+	
+#nav_menu a
+	{
+	text-decoration: none;
+	background-color:#800000;
+	color: white;
+	display: block;
+	font-style: normal;		
+	}
+
+
+
+#nav_menu_sub
+	{
+	width: 7em;
+	margin: 1.3em 0em 0em 39.5em;
+	padding: 0em 0em 0em 0em;
+	list-style-type: none;	
+	position: absolute;
+	text-align: center;
+	background-color:#800000;
+	color: white;
+	clear: left;	
+	display: block;
+	visibility: hidden;
+	font-style: normal;		
+	}
+	
+#nav_menu_sub li
+	{
+	clear: left;	
+	margin: 0em 0em 0em 0em;
+	padding: .5em 0em .5em 0em;
+	width: 150%;
+	display: block;	
+	font-style: normal;		
+	}
+
+
+#nav_menu:hover #nav_menu_sub
+	{
+	visibility: visible;
+	font-style: normal;	
+	}
+
+	
+.current:link
+	{
+	color: yellow !important;
+	}
+	
+.current:visited
+	{
+	color: yellow !important;
+	}
+		
+.current:hover
+	{
+	color: yellow !important;
+	}
+			
+.current:active
+	{
+	color: yellow !important;
+	}
+			
+
+
+
+
+
+
+
+
+
+/* 
+The styles for the footer
+Set the background color of the footer to the same color as the borders, 
+and then set the font color for the paragraph in the footer to white so it’s easier to read.
+
+Then, use the clear property in the footer to clear the floating. 
+ */
+div footer
+	{
+	margin-top: 45em;
+	text-align:center;	
+	background-color: #931420;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color: white;
+	clear: right;
+	clear: left;
+	clear: all;
+	}
+

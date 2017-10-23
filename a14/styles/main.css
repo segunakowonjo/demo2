@@ -1,0 +1,32 @@
+html
+	{
+	width: 100%;
+	background: Blue;	
+	}
+
+
+body
+	{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #12A2FC;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	}
+	
+	
+body header
+	{
+	padding-bottom: 2em;
+	padding-top: 2em;
+	padding-left: 2em;
+	padding-right: 2em;	
+	}
+
+
+
+
+
+

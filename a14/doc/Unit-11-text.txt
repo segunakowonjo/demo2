@@ -1,0 +1,39 @@
+Peter Martini
+IS 117 Section 041
+Summer 2017
+A14. Unit 11 - HW Create and Display Cookies
+Cookies are small data files on your computer.  The cookie is data sent from a website to your web browser, and then stored on your computer.  Cookies are similar, in composition to Python dictionaries, in that they are comprised of a “key” and a “data value.”  The cookie is used by your web browser, and the web server for the website you are looking at.  
+Some examples what cookies are used for:
+> PREVIOUS WEB SITES YOU VISITED
+> USERNAME & PASSWORD FOR A WEBSITE
+> USER PREFERENCES FOR A WEBSITE
+> GAME SCORES
+> SHOPPING CART DATA
+> CREDIT CARD DATA
+According to Verisign, there are three types of cookies:
+01) Session cookies: these are mainly used by online shops and allow you to keep items in your basket when shopping online. These cookies expire when the browser is closed.a
+02) Permanent cookies: these remain in operation, even when you have closed the browser. They remember your login details and password so you don’t have to type them in every time you use the site. The law concerning permanent cookies stipulates that they need to be deleted after a period of six months.a
+03) Third-party cookies: these are installed by third parties with the aim of collecting certain information to carry out various research into behavior, demographics etc.a
+While cookies are useful, they do have many negative aspects to them.  Here are some of the positive and negative aspects of cookies:
+01)  Positive Aspects:
+a. The remember information about that website
+b. Stores information as to your name and address
+c. Create personalized settings for a website
+d. Can be used by marketing companies, so you only get targeted ads.   
+
+
+02) Negative Aspects:
+a. User privacy, while the cookies make it easier to fill in forms, on a website, they also make it easier for that personal information to be stolen.
+b. Third party advertisers can send you spam
+c. Your web history can be tracked, by other companies of the government.
+d. Credit card information can be stolen
+References:
+1) http://www.internetmarketinginc.com/blog/the-pros-and-cons-of-cookies-a-google-story/
+2) https://www.verisign.com/en_GB/domain-names/online/implement/what-are-cookies/index.xhtml
+3) http://www.livinginternet.com/w/wa_cookie_what.htm
+4) http://www.webopedia.com/DidYouKnow/Internet/all_about_cookies.asp
+5) http://www.allaboutcookies.org/cookies/
+6) http://www.whatarecookies.com/
+7) https://en.wikipedia.org/wiki/HTTP_cookie
+a) https://www.verisign.com/en_GB/domain-names/online/implement/what-are-cookies/index.xhtml
+

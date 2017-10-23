@@ -1,0 +1,32 @@
+body
+	{
+	width: 75%;
+	margin: 3em auto 3em auto;	
+	background-color: blue;
+	color: white;
+	}
+
+
+h1
+	{
+	text-align: center;
+	}
+
+
+p
+	{
+	text-align: justify;
+	}
+
+
+p img
+	{
+	padding-left: 15em;
+	}
+
+
+a
+	{
+		color: white;
+		font-size: 100%;
+	}
